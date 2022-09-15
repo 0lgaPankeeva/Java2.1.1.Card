@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/np32hgmhpk5ms5ws?svg=true)](https://ci.appveyor.com/project/0lgaPankeeva/java2-1-1-card)
