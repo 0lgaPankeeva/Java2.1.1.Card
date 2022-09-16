@@ -1,4 +1,4 @@
-import com.codeborne.selenide.SelenideElement;
+
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -9,7 +9,7 @@ public class CardTest {
     @Test
     void cardTest1() {
         open("http://localhost:9999");
-        SelenideElement form = $("[data-test-id=card-form]");
+
         $("[data-test-id=name] input").setValue("Иванов Иван");
         $("[data-test-id=phone] input").setValue("+12345678900");
         $("[data-test-id=agreement]").click();
